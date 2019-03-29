@@ -1,0 +1,58 @@
+body {
+    font-family: Andale Mono, monospace;}
+
+h1 {
+    text-align: center;
+    color: #ffffff;}
+
+h2 {
+    color: #ffffff;}
+
+html { 
+    background: url("https://www.dentons.com/-/media/images/website/background-images/regions/united-states/us_regional_image_v7.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+li a:hover:not(.active) {
+    background-color: #333;}
+
+li:last-child {
+    border-right: 1px solid #bbb;}
+
+.active {
+    background-color: #4CAF50;}
+
+div.box {
+    width: 800px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 20px solid #000000;
+}
+
+p.one {
+    text-align: left;
+    color: #ffffff;}
